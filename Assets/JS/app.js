@@ -21,5 +21,6 @@ const updateUI = data => {
     document.getElementById('icon').setAttribute('src', `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`);
     document.getElementById('city').value = "";
 }
+searchBtn.value='';
 
 getWeatherData('Dhaka');
