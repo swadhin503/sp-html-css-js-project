@@ -1,65 +1,64 @@
-*{
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 :root {
-   --theme-color: #041d38;
-   --theme-color--two: #ffaa17;
+  --theme-color: #041d38;
+  --theme-color--two: #ffaa17;
 }
 
-.mukti-default-color {
-   color: var(--theme-color--two);
-}
- 
-/* Mukti Text color  */
-.mukti-text-color {        
-   color: var(--theme-color);
+.teamX-default-color {
+  color: var(--theme-color--two);
 }
 
-/* Mukti background color */
-.bg-mukti-default-color {
-   background-color: var(--theme-color);
+/* teamX Text color  */
+.teamX-text-color {
+  color: var(--theme-color);
 }
- 
-.bg-mukti-text-color {
-   background-color: var(--theme-color--two);
+
+/* teamX background color */
+.bg-teamX-default-color {
+  background-color: var(--theme-color);
+}
+
+.bg-teamX-text-color {
+  background-color: var(--theme-color--two);
 }
 
 /* footer start */
 
-.footer-link a{
-   text-decoration: none;
-   color: var(--theme-color);
+.footer-link a {
+  text-decoration: none;
+  color: var(--theme-color);
 }
-.footer-link a:focus, .footer-link a:hover {
-   color: var(--theme-color--two)
+.footer-link a:focus,
+.footer-link a:hover {
+  color: var(--theme-color--two);
 }
-.footer-social-icon h6{
-   color: var(--theme-color--two)
+.footer-social-icon h6 {
+  color: var(--theme-color--two);
 }
-.footer-social-icon a:hover{
-   color: var(--theme-color--two)
+.footer-social-icon a:hover {
+  color: var(--theme-color--two);
 }
 .footer-top-color {
-   background: #f7fcff;
-   height: 60px;
-   width:100%;
-} 
+  background: #f7fcff;
+  height: 60px;
+  width: 100%;
+}
 
 /* footer end */
 
 /* faq section */
 .bg-color {
-   background-color: #f4f9ff;
-   padding:45px !important;
- }
- .hading-cart {
-   background-color: white;
- }
- .faq-main h4{
-   font-size:20px;
- }
- /* end faq section */
-
-
+  background-color: #f4f9ff;
+  padding: 45px !important;
+}
+.hading-cart {
+  background-color: white;
+}
+.faq-main h4 {
+  font-size: 20px;
+}
+/* end faq section */
